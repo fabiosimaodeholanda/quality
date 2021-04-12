@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="Stylesheet" href="./css/estilo.css">
+        <script src="./js/funcoes.js"></script>
+        <title>lanchonete</title>
+    </head>
+        <body>
+            <div class="menu">
+            <a href="index.html">Página Inicial</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="endereco.html">Endereço</a>
+            <a href="contatos.html">Contatos</a>
+            <a href="comentarios.php">Comentarios</a>
+            </div>
+            <br>
+
+            <div id="minhacategoria">
+
+            <h3>Categorias</h3>
+            <lu>
+            <li onclick="exibir_todos()"><u style="color: blue;">Todos</u></li>
+            <li onclick="exibir_categoria('hamburguer')"><u style="color: blue;">Hamburguer</u></li>
+            <li onclick="exibir_categoria('pizza')"><u style="color: blue;">Pizza</u></li>
+            <li onclick="exibir_categoria('combo')"><u style="color: blue;">Combo</u></li>
+            <li onclick="exibir_categoria('cachorro_quente')"><u style="color: blue;">Cachorro quente</u></li>
+            <li onclick="exibir_categoria('porcao')"><u style="color: blue;"> Porção</u></li>
+            </lu>
+            </div>
+
+            </br></br>
+
+            <div class="boxprodutos" id="hamburguer">
+            <img src="./imagens/hamburguer.png.jpg" width="150px" onclick="destaque(this)">
+            <p>Hamburguer</p>
+            <hr>
+            <p>R$ 10,00</p>
+            </div>
+
+
+            <div class="boxprodutos" id="combo">
+            <img src="./imagens/combo.png.jpg" width="150px" onclick="destaque(this)">
+            <p>Combo</p>
+            <hr>
+            <p>R$ 30,00</p>
+            </div>
+
+            <div class="boxprodutos" id="cachorro_quente">
+            <img src="./imagens/cachorroquente (1).jpg" width="150px" onclick="destaque(this)">
+            <p>cachorro quente</p>
+            <hr>
+            <p>R$ 5,00</p>
+            </div>
+
+            <div class="boxprodutos" id="porcao">
+            <img src="./imagens/porcao (1).jpg" width="150px" onclick="destaque(this)">
+            <p>porção</p>
+            <hr>
+            <p>R$ 40,00</p>
+            </div>
+
+            <div class="boxprodutos" id="hamburguer">
+            <img src="./imagens/harburguergourmt.jpg" width="150px" onclick="destaque(this)">
+            <p>hamburguer gourmet</p>
+            <hr>
+            <p>R$ 15,00</p>
+            </div>
+
+            <div class="boxprodutos" id="pizza">
+            <img src="./imagens/pizza.png.jpg" width="150px" onclick="destaque(this)">
+            <p>pizza</p>
+            <hr>
+            <p>R$ 50,00</p>
+            </div>
+
+            <div class="boxprodutos" id="hamburguer">
+            <img src="./imagens/xbacon.png.jpg" width="150px" onclick="destaque(this)">
+            <p>x-bacon</p>
+            <hr>
+            <p>R$ 15,00</p>
+            </div>
+
+            <div class="boxprodutos" id="hamburguer">
+            <img src="./imagens/xtudo.png.jpeg" width="150px" onclick="destaque(this)"> 
+            <p>x-tudo</p>
+            <hr>
+            <p>R$ 15,00</p>
+            </div>
+
+            </div>
+        </body>
+</html>
